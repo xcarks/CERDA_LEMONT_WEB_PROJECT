@@ -47,7 +47,7 @@ h2 {
     line-height: 1.3;
 }
 
-/* ===== HEADER & NAVIGATION ===== */
+/* HEADER & NAVIGATION*/
 
 header {
     background-color: var(--main-blue);
@@ -76,7 +76,7 @@ nav ul li a:hover {
     color: var(--yellow);
 }
 
-/* ===== HERO (index.html) ===== */
+/*HERO (index.html)*/
 
 /* Hero container — relative so the image and text box can overlap */
 .hero {
@@ -141,7 +141,7 @@ nav ul li a:hover {
     background-color: var(--light-blue);
 }
 
-/* ===== ABOUT SECTION (index.html) ===== */
+/* ABOUT SECTION (index.html)*/
 
 .main-info {
     max-width: 1200px;
@@ -193,7 +193,7 @@ nav ul li a:hover {
     display: block;
 }
 
-/* ===== STATS SECTION (index.html) ===== */
+/*STATS SECTION (index.html)*/
 
 .stats-section {
     display: flex;
@@ -223,7 +223,7 @@ nav ul li a:hover {
     color: var(--white);
 }
 
-/* ===== NEWS SLIDER (index.html) ===== */
+/*NEWS SLIDER (index.html) */
 
 .image-slider {
     width: 80%;
@@ -265,7 +265,7 @@ nav ul li a:hover {
     cursor: pointer;
 }
 
-/* ===== SHARED UTILITIES ===== */
+/*SHARED UTILITIES*/
 
 /* Generic page wrapper with padding */
 .main-container {
@@ -308,7 +308,7 @@ button:hover {
     color: var(--main-blue);
 }
 
-/* ===== FOOTER ===== */
+/*FOOTER*/
 
 /* margin-top: auto pushes footer to the bottom of the page */
 footer {
@@ -324,7 +324,7 @@ footer a {
     text-decoration: none;
 }
 
-/* ===== PROGRAMS PAGE (courses.html) ===== */
+/*PROGRAMS PAGE (courses.html)*/
 
 .page-subtitle {
     color: #555;
@@ -386,7 +386,14 @@ th {
     font-style: italic;
 }
 
-/* ===== CONTACT PAGE (contact.html) ===== */
+/* Separates the two cycles inside Programme Grande École */
+.cycle-title {
+    margin-top: 40px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--main-blue);
+}
+
+/*CONTACT PAGE (contact.html)*/
 
 /* Stacks contact info blocks above the message form */
 .contact-layout {
@@ -433,7 +440,7 @@ th {
     margin: 0;
 }
 
-/* ===== ABOUT PAGE (about.html) ===== */
+/*ABOUT PAGE (about.html)*/
 
 .student-list {
     list-style-type: square;
@@ -453,7 +460,7 @@ th {
     margin-top: 20px;
 }
 
-/* ===== RESPONSIVE ===== */
+/*RESPONSIVE*/
 
 @media (max-width: 768px) {
     /* Hero text fills the full width on small screens */

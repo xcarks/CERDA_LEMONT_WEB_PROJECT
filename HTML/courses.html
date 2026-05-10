@@ -27,7 +27,7 @@
         <div class="tab-buttons">
             <button class="tab-btn active" data-tab="bachelor">Bachelor</button>
             <button class="tab-btn" data-tab="mastere">Master</button>
-            <button class="tab-btn" data-tab="ingenieur">Cycle Ingénieur</button>
+            <button class="tab-btn" data-tab="grandecole">Programme Grande École</button>
         </div>
 
         <!-- Bachelor Table -->
@@ -162,8 +162,55 @@
             </table>
         </div>
 
-        <!-- Cycle Ingénieur Table -->
-        <div class="tab-content hidden" id="ingenieur">
+        <!-- Programme Grande École Tab -->
+        <div class="tab-content hidden" id="grandecole">
+
+            <!-- Cycle Prépa -->
+            <h3 class="cycle-title">Cycle Préparatoire</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Program</th>
+                        <th>Duration</th>
+                        <th>Campus</th>
+                        <th>Language</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Prépa Scientifique</td>
+                        <td>2 years</td>
+                        <td>Paris, Bordeaux</td>
+                        <td>French</td>
+                        <td>Standard preparatory track with a strong focus on mathematics, physics, and computer science fundamentals.</td>
+                    </tr>
+                    <tr>
+                        <td>Prépa Scientifique (English)</td>
+                        <td>2 years</td>
+                        <td>Paris</td>
+                        <td>English</td>
+                        <td>Same scientific curriculum as the standard track but delivered entirely in English for international students.</td>
+                    </tr>
+                    <tr>
+                        <td>Prépa Bio & Numérique</td>
+                        <td>2 years</td>
+                        <td>Paris</td>
+                        <td>French</td>
+                        <td>Preparatory track combining biology, digital sciences, and engineering foundations for life sciences profiles.</td>
+                    </tr>
+                    <tr>
+                        <td>Prépa PLUS</td>
+                        <td>2 years</td>
+                        <td>Paris</td>
+                        <td>French</td>
+                        <td>Adapted preparatory path with additional academic support for students entering with diverse scientific profiles.</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <!-- Cycle Ingénieur -->
+            <h3 class="cycle-title">Cycle Ingénieur</h3>
             <table>
                 <thead>
                     <tr>
@@ -193,7 +240,7 @@
                         <td>Data Science</td>
                         <td>3 years</td>
                         <td>Paris, Bordeaux</td>
-                        <td>French</td>
+                        <td>English</td>
                         <td>Machine learning, big data, statistical modeling, and AI-driven business intelligence.</td>
                     </tr>
                     <tr>
@@ -205,7 +252,8 @@
                     </tr>
                 </tbody>
             </table>
-            <p class="note">All Cycle Ingénieur tracks include a mandatory international semester. Entry from Bac+2 (CPGE, IUT, BTS).</p>
+            <p class="note">ING1 includes a mandatory international semester. Entry from CPGE, DUT/BUT, or parallel admissions.</p>
+
         </div>
 
     </main>

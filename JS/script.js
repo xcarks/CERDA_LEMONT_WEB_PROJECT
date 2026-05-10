@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // --- NEWS SLIDER (index.html) ---
+    // NEWS SLIDER (index.html)
     // Moves the slider track horizontally to show one slide at a time
     const sliderTrack = document.querySelector('.slider-track');
     if (sliderTrack) {
@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
         btnPrev.addEventListener('click', () => showSlide(index - 1));
     }
 
-    // --- PROGRAM TABS (courses.html) ---
+    //PROGRAM TABS (courses.html)
     // Shows the table matching the clicked tab, hides the others
     const tabBtns = document.querySelectorAll('.tab-btn');
     if (tabBtns.length > 0) {
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    // --- CONTACT FORM (contact.html) ---
+    //CONTACT FORM (contact.html) 
     // Validates fields before submitting and shows a confirmation message
     const msgForm = document.getElementById('msg-form');
     if (msgForm) {
