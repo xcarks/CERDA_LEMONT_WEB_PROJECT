@@ -1,5 +1,5 @@
 /* Google Fonts: Montserrat for headings, Open Sans for body text */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Open+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@300;400&display=swap');
 
 /* Global color variables */
 :root {
@@ -30,7 +30,7 @@ body {
 }
 
 /* All headings use Montserrat and the main blue color */
-h1, h2, h3 {
+h1, h2, h3, h4 {
     font-family: 'Montserrat', sans-serif;
     color: var(--main-blue);
 }
@@ -45,6 +45,12 @@ h2 {
     font-size: 32px;
     font-weight: 600;
     line-height: 1.3;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.4;
 }
 
 /* HEADER & NAVIGATION*/
@@ -180,6 +186,10 @@ nav ul li a:hover {
     color: #444;
 }
 
+.text-container p + p {
+    margin-top: 15px;
+}
+
 .img-container {
     flex: 1;
 }
@@ -274,6 +284,22 @@ nav ul li a:hover {
 
 .center-text {
     text-align: center;
+}
+
+.news-heading {
+    padding: 40px 0 10px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
 }
 
 /* Generic form styles used on contact page */
@@ -403,8 +429,9 @@ th {
     margin-top: 40px;
 }
 
-.contact-info h3,
-.contact-form h3 {
+.contact-info h2,
+.contact-form h2 {
+    font-size: 22px;
     margin-bottom: 25px;
 }
 
@@ -423,7 +450,8 @@ th {
     background-color: #f5f7fa;
 }
 
-.contact-block h4 {
+.contact-block h3 {
+    font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     color: var(--main-blue);
     margin-bottom: 10px;

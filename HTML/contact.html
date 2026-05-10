@@ -20,41 +20,44 @@
     </header>
 
     <main class="main-container">
-        <h2 class="center-text">Get in Touch</h2>
+        <h1 class="center-text">Get in Touch</h1>
         <p class="center-text page-subtitle">Have a question? Reach us directly or send us a message below.</p>
 
         <div class="contact-layout">
 
             <!-- Contact Info -->
             <div class="contact-info">
-                <h3>Contact Information</h3>
+                <h2>Contact Information</h2>
 
                 <div class="contact-block">
-                    <h4>Paris Campus</h4>
-                    <p>30-32 Avenue de la République<br>94800 Villejuif, France</p>
-                    <p>📞 +33 1 88 28 90 00</p>
-                    <p>📞 Admissions: +33 1 88 28 90 01</p>
+                    <h3>Paris Campus</h3>
+                    <p>30-32 Avenue de la R&#233;publique<br>94800 Villejuif, France</p>
+                    <p>&#128222; +33 1 88 28 90 00</p>
+                    <p>&#128222; Admissions: +33 1 88 28 90 01</p>
                 </div>
 
                 <div class="contact-block">
-                    <h4>Bordeaux Campus</h4>
+                    <h3>Bordeaux Campus</h3>
                     <p>83 Rue Lucien Faure<br>33000 Bordeaux, France</p>
-                    <p>📞 +33 5 82 06 01 62</p>
+                    <p>&#128222; +33 5 82 06 01 62</p>
                 </div>
 
                 <div class="contact-block">
-                    <h4>Email</h4>
-                    <p>✉️ admissions@efrei.fr</p>
+                    <h3>Email</h3>
+                    <p>&#9993; admissions@efrei.fr</p>
                 </div>
             </div>
 
             <!-- Message Form -->
             <div class="contact-form">
-                <h3>Send Us a Message</h3>
+                <h2>Send Us a Message</h2>
                 <form id="msg-form">
-                    <input type="text" id="user-name" placeholder="Full Name" required>
-                    <input type="email" id="user-email" placeholder="Email Address" required>
-                    <textarea id="user-message" rows="6" placeholder="Your Message" required></textarea>
+                    <label for="user-name" class="visually-hidden">Full Name</label>
+                    <input type="text" id="user-name" name="full-name" placeholder="Full Name" required>
+                    <label for="user-email" class="visually-hidden">Email Address</label>
+                    <input type="email" id="user-email" name="email" placeholder="Email Address" required>
+                    <label for="user-message" class="visually-hidden">Your Message</label>
+                    <textarea id="user-message" name="message" rows="6" placeholder="Your Message" required></textarea>
                     <button type="submit">Send Message</button>
                 </form>
             </div>
